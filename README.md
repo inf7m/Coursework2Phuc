@@ -5,10 +5,10 @@ This repository contains a **file search application** implemented in Python, de
 ---
 
 ## Project Structure
-parallel-file-search/
+parallel-file-search /
 
-── main.py # Run sequential & parallel versions, measure timing, calculate speedup
-── sequential.py # Single-thread version
+ main.py # Run sequential & parallel versions, measure timing, calculate speedup
+sequential.py # Single-thread version
 ── parallel.py # Multi-thread version using ThreadPoolExecutor
 ── io_handler.py # File I/O: read/write files and list folder contents
 ── generateDataset.py # CLI script to generate text files for testing
